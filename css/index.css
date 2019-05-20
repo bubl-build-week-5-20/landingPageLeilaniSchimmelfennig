@@ -1,6 +1,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background: #8b90c6;
+    overflow: hidden;
 }
 
 
@@ -22,7 +23,6 @@ body {
 }
 
 
-
 .excluding {
     justify-content: center;
     text-align: center;
@@ -36,18 +36,19 @@ h1 {
 
 button {
     border: 1px solid #485161;
+    font-size: 150%;
     text-align: center;
-    padding: 15px 55px;
+    padding: 15px 45px;
     background-color: #ffffff;
     color: #485161;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 35px;
     box-shadow: 0 5px;
     margin-top: 3%;
   }
   button:hover {
-    background-color: #ffffff;
-    color: #2fB8BE;
+    background-color: #ededed;
+    /* color: #2fB8BE; */
 }
 
 /* .parallax {
