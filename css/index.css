@@ -1,8 +1,9 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    background: #8b90c6;
 }
 
-    
+
 .navbar-nav.navbar-center {
     margin-left: auto;
     margin-right: auto;
@@ -13,5 +14,46 @@ body {
 .navbar-brand {
     font-weight: bold;
     font-size: 250%;
+    letter-spacing: -5px;
 }
 
+.bodyarea {
+    display: flex;
+}
+
+.excluding {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 7.4em;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid #485161;
+    text-align: center;
+    padding: 15px 55px;
+    background-color: #ffffff;
+    color: #485161;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px;
+    margin-top: 3%;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #2fB8BE;
+}
+
+/* .parallax {
+
+  background-image: url("/img/blank-card-cellphone-1851415.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  */
