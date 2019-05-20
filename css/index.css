@@ -1,7 +1,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background: #8b90c6;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -29,20 +29,36 @@ body {
     margin: auto;
 }
 
+
 h1 {
     font-size: 7.4em;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center; 
+}
+
+.aboutUs {
+    margin: 3%;
 }
 
 button {
     border: 1px solid #485161;
     font-size: 150%;
     text-align: center;
-    padding: 15px 45px;
+    padding: 22px 45px;
     background-color: #ffffff;
     color: #485161;
     overflow: hidden;
-    border-radius: 35px;
+    border-radius: 45px;
     box-shadow: 0 5px;
     margin-top: 3%;
   }
