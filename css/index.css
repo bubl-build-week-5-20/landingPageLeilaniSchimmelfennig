@@ -6,6 +6,7 @@ body {
 }
 
 
+
 .navbar-nav.navbar-center {
     margin-left: auto;
     margin-right: auto;
@@ -26,8 +27,13 @@ body {
 
 .bodyarea {
     display: flex;
+    background: rgba(139, 144, 198, 0.2);
 }
 
+.container2 {
+    background: rgba(139, 144, 198, 0.2); 
+    border-radius: 25px;
+}
 
 .excluding {
     justify-content: center;
@@ -93,17 +99,19 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 5%;
+    
 }
 
 .middle1 {
     padding: 0% 2%;
     width: 32%;
-    line-height: 20px;
-    align-self: flex-end;
+    line-height: 30px;
+    align-self: center;
 }
 
-.theh2 {
-    margin-top: 3%;
+
+.middle1 p {
+    text-align: left;
 }
 
 .aboutUs {
@@ -135,7 +143,7 @@ button {
 
 footer {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 
@@ -183,7 +191,7 @@ footer {
         margin-bottom: 5%;
     }
     footer {
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
   }
@@ -219,3 +227,64 @@ footer {
         margin-left: 10%;
     }
 }
+
+
+
+/* trying out*/
+#bubbles { height: 100% }
+#bubbles { padding: 100px 0 }
+.bubble {
+    width: 60px;
+    height: 60px;
+    background: #2fB8BE;
+    border-radius: 200px;
+    position: absolute;
+}
+
+.x1 {
+
+    transform: scale(0.9);
+    opacity: 0.2;
+    -webkit-animation: moveclouds 21s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+}
+
+.x2 {
+    left: 38%;
+    transform: scale(0.6);
+    opacity: 0.5;
+    -webkit-animation: moveclouds 20s linear infinite, sideWays 5s ease-in-out infinite alternate;
+
+}
+.x3 {
+    left: 11%;
+    transform: scale(0.8);
+    opacity: 0.3;
+    -webkit-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+}
+.x4 {
+    left: 23%;
+    transform: scale(0.75);
+    opacity: 0.35;
+    -webkit-animation: moveclouds 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+}
+.x5 {
+    left: 33%;
+    transform: scale(.8);
+    opacity: 0.3; 
+    -webkit-animation: moveclouds 18s linear infinite, sideWays 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes moveclouds { 
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+
+
