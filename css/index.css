@@ -20,11 +20,6 @@ body {
     letter-spacing: -5px;
 }
 
-.chatting {
-    border-bottom-right-radius: 5%;
-    
-}
-
 .bodyarea {
     display: flex;
     background: rgba(139, 144, 198, 0.2);
@@ -32,7 +27,8 @@ body {
 
 .container2 {
     background: rgba(139, 144, 198, 0.2); 
-    border-radius: 25px;
+    border-radius: 5%;
+    box-shadow: 5px 10px rgba(139, 144, 198, 0.4);
 }
 
 .excluding {
@@ -89,29 +85,31 @@ button {
 }
 
 .followers {
-    width: 75%;
+    width: 100%;
     height: auto;
+    padding-left: 5%;
     border-radius: 75%;
+    margin-bottom: 5%;
 }
 
 .middle {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 5%;
-    
+    margin-top: 15%;
+    align-items: baseline;
 }
 
 .middle1 {
     padding: 0% 2%;
-    width: 32%;
+    width: 34%;
     line-height: 30px;
-    align-self: center;
 }
 
 
+
 .middle1 p {
-    text-align: left;
+    text-align: justify;
+    margin-top: 10%
 }
 
 .aboutUs {
