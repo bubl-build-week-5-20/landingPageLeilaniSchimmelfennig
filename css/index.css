@@ -33,7 +33,6 @@ body {
 h1 {
     font-size: 7.4em;
     font-weight: bold;
-    color:
 }
 
 h2 {
@@ -72,9 +71,39 @@ button {
     /* color: #2fB8BE; */
 }
 
+.followers {
+    width: 75%;
+    height: auto;
+    border-radius: 75%;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+
+.middle1 {
+    border: 1px solid black;
+    padding: 20px 40px;
+    width: 25%;
+    line-height: 20px;
+    align-self: center;
+}
+
+
+
+
+
 footer {
     text-align: center;
 }
+
+
+
+
 
 /* .parallax {
 
