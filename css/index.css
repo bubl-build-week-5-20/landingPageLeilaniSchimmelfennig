@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background: #8b90c6;
+    /* background: #8b90c6; */
     /* overflow: hidden; */
 }
 
@@ -67,8 +67,8 @@ button {
     margin-bottom: 3%;
   }
   button:hover {
-    background-color: #ededed;
-    /* color: #2fB8BE; */
+    background-color: #ffffff;
+    color: #2fB8BE;
 }
 
 .followers {
