@@ -1,6 +1,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background: #8b90c6;
+    /* overflow: hidden; */
 }
 
 
@@ -22,33 +23,87 @@ body {
 }
 
 
-
 .excluding {
     justify-content: center;
     text-align: center;
     margin: auto;
 }
 
+
 h1 {
     font-size: 7.4em;
     font-weight: bold;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center; 
+}
+
+.aboutUs {
+    margin: 3%;
+}
+
 button {
     border: 1px solid #485161;
+    font-size: 150%;
     text-align: center;
-    padding: 15px 55px;
+    padding: 22px 45px;
     background-color: #ffffff;
     color: #485161;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 45px;
     box-shadow: 0 5px;
-    margin-top: 3%;
+    margin-bottom: 3%;
   }
   button:hover {
-    background-color: #ffffff;
-    color: #2fB8BE;
+    background-color: #ededed;
+    /* color: #2fB8BE; */
 }
+
+.followers {
+    width: 75%;
+    height: auto;
+    border-radius: 75%;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+
+.middle1 {
+    border: 1px solid black;
+    padding: 20px 40px;
+    width: 25%;
+    line-height: 20px;
+    align-self: center;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+}
+
+
+
+
 
 /* .parallax {
 
@@ -59,3 +114,26 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 }  */
+
+@media (max-width: 500px) {
+    body {
+        max-width: 500px;
+    }
+    .bodyarea {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .chatting {
+        width: 100%;
+        height: 100%;
+    }
+    .excluding {
+        font-size: 75%;
+    }
+    button {
+        margin-bottom: 5%;
+    }
+    footer {
+        margin-top: 10%;
+    }
+  }
