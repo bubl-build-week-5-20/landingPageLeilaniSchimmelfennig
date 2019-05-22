@@ -25,15 +25,15 @@ const siteContent = {
 const button = document.querySelector('button')
 button.textContent = (siteContent["mid"]["button"])
 
-const main1 = document.querySelectorAll("middle, middle1, h2")
+const main1 = document.querySelectorAll(".middle .middle1 h2")
 main1[0].textContent = (siteContent["main-content"]["about-h2"])
 main1[1].textContent = (siteContent["main-content"]["layout-h2"])
 main1[2].textContent = (siteContent["main-content"]["controls-h2"])
 
-const main2 = document.querySelectorAll("middle, middle1, p")
-main2[1].textContent = (siteContent["main-content"]["about-content"])
-main2[2].textContent = (siteContent["main-content"]["layout-content"])
-main2[3].textContent = (siteContent["main-content"]["controls-content"])
+const main2 = document.querySelectorAll(".middle .middle1 p")
+main2[0].textContent = (siteContent["main-content"]["about-content"])
+main2[1].textContent = (siteContent["main-content"]["layout-content"])
+main2[2].textContent = (siteContent["main-content"]["controls-content"])
 
 const foot = document.querySelector("container, footer")
 foot.textContent = (siteContent["footer"]["copyright"])
@@ -58,3 +58,4 @@ class Dropdown {
 
 
   */
+
