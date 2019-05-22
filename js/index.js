@@ -43,25 +43,37 @@ foot.textContent = (siteContent["footer"]["copyright"])
 
 //===== Event Listeners =====//
 
-const colorNav = document.querySelectorAll(".navbar a")
+const colorNav1 = document.querySelectorAll(".navbar a")
 
-colorNav.forEach(a => {
+colorNav1.forEach(a => {
     a.addEventListener("pointerover", () => {
         a.style.color = "#2fB8BE";
     })
 });
 
-colorNav.forEach(b => {
+colorNav1.forEach(b => {
     b.addEventListener("mouseout", () => {
         b.style.color = "#485161";
     })
 });
 
+colorNav.forEach(c => {
+    c.addEventListener('drag', () => {
+        c.style.color = "#ffffff";
+    })
+})
+
 // const btn = document.querySelectorAll('.btn')
 
 // btn.forEach(b => {
 //     b.addEventListener('mouseover', () => {
-//         b.style.background = "white";
+//         b.style.background = "black";
+//     })
+// })
+
+// btn.forEach(b => {
+//     b.addEventListener('mouseout', () => {
+//         b.style.background = "rgba(139, 144, 198, .2)";
 //     })
 // })
 

@@ -83,12 +83,11 @@ button {
     box-shadow: 0 5px;
     margin-bottom: 3%;
   }
-  /* button:hover {
+  button:hover {
     background-color: #ffffff;
     color: #2fB8BE;
-} */
-
-
+}
+  
 
 .followers {
     width: 100%;
@@ -134,7 +133,7 @@ button {
 .profilepic {
     width: 50%;
     height: auto;
-    border-radius: 80%;
+    border-radius: 50%;
     margin-left: 25%;
 }
 .fab {
@@ -167,6 +166,10 @@ footer {
 @media (max-width: 500px) {
     body {
         max-width: 500px;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
     }
     .container {
         max-width: 500px;
@@ -204,6 +207,10 @@ footer {
 @media (max-width: 800px) {
     body {
         max-width: 800px;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
     }
     .container {
         max-width: 800px;
