@@ -18,7 +18,8 @@ const siteContent = {
     "button": "Sign Up",
     },
     "footer": {
-        "copyright" : "Copyright Bubl 2019"
+        "copyright" : "©2019 BUBL, INC. ALL RIGHTS RESERVED.",
+        "copyright2" :"===All trademarks referenced herein are the properties of their respective owners.",
     }
 }
 
@@ -35,7 +36,7 @@ main2[0].textContent = (siteContent["main-content"]["about-content"])
 main2[1].textContent = (siteContent["main-content"]["layout-content"])
 main2[2].textContent = (siteContent["main-content"]["controls-content"])
 
-const foot = document.querySelector("container, footer")
+const foot = document.querySelector(".container h3")
 foot.textContent = (siteContent["footer"]["copyright"])
 
 /*
