@@ -23,7 +23,7 @@ const siteContent = {
     }
 }
 
-const button = document.querySelector('button')
+const button = document.querySelector("button")
 button.textContent = (siteContent["mid"]["button"])
 
 const main1 = document.querySelectorAll(".middle .middle1 h2")
@@ -38,6 +38,35 @@ main2[2].textContent = (siteContent["main-content"]["controls-content"])
 
 const foot = document.querySelector(".container h3")
 foot.textContent = (siteContent["footer"]["copyright"])
+
+
+
+//===== Event Listeners =====//
+
+const colorNav = document.querySelectorAll(".navbar a")
+
+colorNav.forEach(a => {
+    a.addEventListener("pointerover", () => {
+        a.style.color = "#2fB8BE";
+    })
+});
+
+colorNav.forEach(b => {
+    b.addEventListener("mouseout", () => {
+        b.style.color = "#485161";
+    })
+});
+
+// const btn = document.querySelectorAll('.btn')
+
+// btn.forEach(b => {
+//     b.addEventListener('mouseover', () => {
+//         b.style.background = "white";
+//     })
+// })
+
+
+
 
 /*
 class Dropdown {
