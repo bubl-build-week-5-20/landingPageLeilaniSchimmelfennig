@@ -47,7 +47,7 @@ const colorNav1 = document.querySelectorAll(".navbar a")
 
 colorNav1.forEach(a => {
     a.addEventListener("pointerover", () => {
-        a.style.color = "#2fB8BE";
+        a.style.color = "#bdd13e";
     })
 });
 
