@@ -27,7 +27,7 @@ body {
 
 .container2 {
     background: rgba(139, 144, 198, 0.2); 
-    border-radius: 5%;
+    border-radius: 25px;
     box-shadow: 5px 10px rgba(139, 144, 198, 0.4);
 }
 
@@ -57,6 +57,10 @@ h4 {
     font-size: 2em;
     text-align: center; 
 }
+h5 {
+    font-size: 1em;
+}
+
 
 p {
     font-size: 1.5em;
@@ -75,7 +79,7 @@ button {
     background-color: #ffffff;
     color: #485161;
     overflow: hidden;
-    border-radius: 45px;
+    border-radius: 15px;
     box-shadow: 0 5px;
     margin-bottom: 3%;
   }
@@ -83,6 +87,7 @@ button {
     background-color: #ffffff;
     color: #2fB8BE;
 }
+  
 
 .followers {
     width: 100%;
@@ -111,6 +116,9 @@ button {
     text-align: justify;
     margin-top: 10%
 }
+.theh2 {
+    margin-top: 5%;
+}
 
 .aboutUs {
     display: flex;
@@ -128,7 +136,7 @@ button {
 .profilepic {
     width: 50%;
     height: auto;
-    border-radius: 80%;
+    border-radius: 50%;
     margin-left: 25%;
 }
 .fab {
@@ -162,6 +170,10 @@ footer {
     body {
         max-width: 500px;
     }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
     .container {
         max-width: 500px;
     }
@@ -176,13 +188,11 @@ footer {
     .excluding {
         font-size: 75%;
     }
-    .middle1 {
-        width: 100%;
+    .middle {
+        flex-direction: column;
     }
-    .followers {
-        padding-right: 12%;
-        width: 85%;
-        height: auto;
+    .middle1 {
+        display: row
     }
     .prop {
         width: 100%;
@@ -201,8 +211,15 @@ footer {
     body {
         max-width: 800px;
     }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
     .container {
         max-width: 800px;
+    }
+    .container2 {
+        border-radius: 15px;
     }
     .bodyarea {
         display: flex;
@@ -217,6 +234,7 @@ footer {
     }
     .middle {
         margin-top: 5%;
+        flex-direction: column;
     }
     .middle1 {
         width: 100%;
@@ -225,13 +243,14 @@ footer {
         padding: 0% 15%;
     }
     .followers {
-        margin-left: 10%;
+        margin-left: 2%;
     }
 }
 
 
+/*======= Animations Below=====*/
 
-/* trying out*/
+/* trying out bubbles*/
 #bubbles { height: 100% }
 #bubbles { padding: 100px 0 }
 .bubble {
@@ -243,7 +262,7 @@ footer {
 }
 
 .x1 {
-
+    left: 75%;
     transform: scale(0.9);
     opacity: 0.2;
     -webkit-animation: moveclouds 21s linear infinite, sideWays 4s ease-in-out infinite alternate;
@@ -254,7 +273,7 @@ footer {
     left: 38%;
     transform: scale(0.6);
     opacity: 0.5;
-    -webkit-animation: moveclouds 20s linear infinite, sideWays 5s ease-in-out infinite alternate;
+    -webkit-animation: moveclouds 8s linear infinite, sideWays 5s ease-in-out infinite alternate;
 
 }
 .x3 {
@@ -278,6 +297,13 @@ footer {
     -webkit-animation: moveclouds 18s linear infinite, sideWays 1s ease-in-out infinite alternate;
 
 }
+.x6 {
+    left: 86%;
+    transform: scale(0.9);
+    opacity: 0.2;
+    -webkit-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+}
 @-webkit-keyframes moveclouds { 
     0% { 
         top: 500px;
@@ -287,5 +313,37 @@ footer {
     }
 }
 
+
+
+/* For Vic's stuff
+
+.school {
+    color: #2fB8BE;
+    text-align: center;
+}
+
+.school h1 {
+    font-size: 5.5em;
+}
+
+.subjects {
+    display: flex;
+    justify-content: center;
+}
+
+.subjects h3 {
+    margin: 45px 50px;
+}
+
+.marginspace {
+    text-align: center;
+    margin-top: 1.75%;
+    color: #485161;
+}
+
+.active {
+    color: #ea5692;
+}
+*/
 
 

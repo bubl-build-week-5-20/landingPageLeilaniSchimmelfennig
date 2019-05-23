@@ -13,9 +13,13 @@
 ## Frameworks - Libraries
 
 * What 3rd party frameworks/libraries are you considering using?
+Bootstrap.
 * Do APIs require you to contact its maintainer to gain access?
+No
 * Are you required to pay to use the API?
+No
 * Have you considered using Apple Frameworks? (MapKit, Healthkit, ARKit?)
+I have now. 
 
 ## Target Audience
 
