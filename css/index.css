@@ -4,9 +4,6 @@ body {
     /* background: rgba(139, 144, 198, 0.2); */
     /* overflow: hidden; */
 }
-
-
-
 .navbar-nav.navbar-center {
     margin-left: auto;
     margin-right: auto;
@@ -56,11 +53,8 @@ h3 {
 h4 {
     font-size: 2em;
     text-align: center; 
+    color: #485161
 }
-h5 {
-    font-size: 1em;
-}
-
 
 p {
     font-size: 1.5em;
@@ -69,6 +63,10 @@ p {
 
 .aboutUs {
     margin: 3%;
+}
+
+.aboutUs p {
+    color: #485161;
 }
 
 button {
@@ -110,14 +108,14 @@ button {
     line-height: 30px;
 }
 
-
-
 .middle1 p {
     text-align: justify;
     margin-top: 10%
 }
+
 .theh2 {
     margin-top: 5%;
+    color: #485161;
 }
 
 .aboutUs {
@@ -143,17 +141,10 @@ button {
     margin-left: 49%;
 }
 
-
-
-
-
 footer {
     text-align: center;
     margin-top: 10%;
 }
-
-
-
 
 
 /* .parallax {

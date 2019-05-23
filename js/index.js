@@ -12,10 +12,10 @@ const siteContent = {
         "layout-h2":"Kid Friendly Layout",
         "layout-content": "With our simple layout, kids will be able to navigate the app with ease. With less time spent figuring out the layout, children can quickly begin to make connections.",
         "controls-h2":"Parental Controls",
-        "controls-content": "In the age of rising technology and limitless social emdia, many parents worry their children may have access to worrisome content. Find out more about our parental controls and safety features.",
+        "controls-content": "In the age of rising technology and limitless social media, many parents worry their children may have access to worrisome content. Find out more about our parental controls and safety features.",
     },
     "mid": {
-    "button": "Sign Up",
+    "button": "Sign Up"
     },
     "footer": {
         "copyright" : "©2019 BUBL, INC. ALL RIGHTS RESERVED.",
@@ -23,20 +23,20 @@ const siteContent = {
     }
 }
 
-const button = document.querySelector("button")
-button.textContent = (siteContent["mid"]["button"])
+let button1 = document.querySelector("button")
+button1.textContent = (siteContent["mid"]["button"])
 
-const main1 = document.querySelectorAll(".middle .middle1 h2")
+let main1 = document.querySelectorAll(".middle .middle1 h2")
 main1[0].textContent = (siteContent["main-content"]["about-h2"])
 main1[1].textContent = (siteContent["main-content"]["layout-h2"])
 main1[2].textContent = (siteContent["main-content"]["controls-h2"])
 
-const main2 = document.querySelectorAll(".middle .middle1 p")
+let main2 = document.querySelectorAll(".middle .middle1 p")
 main2[0].textContent = (siteContent["main-content"]["about-content"])
 main2[1].textContent = (siteContent["main-content"]["layout-content"])
 main2[2].textContent = (siteContent["main-content"]["controls-content"])
 
-const foot = document.querySelector(".container h3")
+let foot = document.querySelector(".container h3")
 foot.textContent = (siteContent["footer"]["copyright"])
 
 
@@ -57,7 +57,7 @@ colorNav1.forEach(b => {
     })
 });
 
-colorNav.forEach(c => {
+colorNav1.forEach(c => {
     c.addEventListener('drag', () => {
         c.style.color = "#ffffff";
     })
