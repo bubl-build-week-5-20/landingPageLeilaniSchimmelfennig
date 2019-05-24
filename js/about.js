@@ -23,21 +23,6 @@ const siteContent = {
     }
 }
 
-let button1 = document.querySelector("button")
-if (button1 != null) {
-  button1.textContent = (siteContent["mid"]["button"])
-}
-
-let main1 = document.querySelectorAll(".middle .middle1 h2")
-main1[0].textContent = (siteContent["main-content"]["about-h2"])
-main1[1].textContent = (siteContent["main-content"]["layout-h2"])
-main1[2].textContent = (siteContent["main-content"]["controls-h2"])
-
-let main2 = document.querySelectorAll(".middle .middle1 p")
-main2[0].textContent = (siteContent["main-content"]["about-content"])
-main2[1].textContent = (siteContent["main-content"]["layout-content"])
-main2[2].textContent = (siteContent["main-content"]["controls-content"])
-
 let foot = document.querySelector(".container h3")
 foot.textContent = (siteContent["footer"]["copyright"])
 
@@ -66,42 +51,3 @@ colorNav1.forEach(c => {
         c.style.color = "#ffffff";
     })
 })
-
-// const btn = document.querySelectorAll('.btn')
-
-// btn.forEach(b => {
-//     b.addEventListener('mouseover', () => {
-//         b.style.background = "black";
-//     })
-// })
-
-// btn.forEach(b => {
-//     b.addEventListener('mouseout', () => {
-//         b.style.background = "rgba(139, 144, 198, .2)";
-//     })
-// })
-
-
-
-
-/*
-class Dropdown {
-  constructor(element) {
-    this.element = element;
-    this.button = this.element.querySelector(".dropdown-button");
-    this.content = this.element.querySelector(".dropdown-content");
-    this.button.addEventListener('click', () => {
-    this.toggleContent();
-    })
-  }
-
-  //Method 
-
-  toggleContent() {
-    this.content.classList.toggle("dropdown-hidden");
-  }
-}
-
-
-  */
-
